@@ -1,0 +1,159 @@
+:root{
+  --main-color: #001021;
+  --secondary-color: #fbf5f3;
+  --tertiary-color: #798086;
+  --quaternary-color: #f48498;
+  --quinary-color: #483d03;
+  /* --senary-color: #34495e;
+  --septenary-color: #16a085;
+  --octonary-color: #27ae60;
+  --nonary-color: #2980b9;
+  --denary-color: #8e44ad; */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.cvReact{
+  display: flex;
+width: 100%;
+
+}
+
+.navBar{
+  width:100%;
+  height: 12vh;
+  display: flex;
+  background-color: var(--main-color);
+}
+
+.navBar > ul{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: var(--secondary-color);
+  list-style: none;
+}
+
+.navBar > ul > li{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-color);
+}
+
+.navBar > ul > li > a{
+  text-decoration: none;
+  color:var(--secondary-color); 
+  font-size: xx-large;
+}
+#homeNavBarPart{
+  background-image: url('./assets/IMG_2614.jpg');
+}
+
+#sideProjectsNavBarPart{
+  background-image: url('./assets/coding.jpg');
+}
+
+#cvNavBarPart{
+  background-image: url('./assets/resumes-desk.jpg');
+}
+
+#contactNavBarPart{
+  background-image: url('./assets/contact.jpg');
+}
+
+#homeNavBarPart, #sideProjectsNavBarPart, #cvNavBarPart, #contactNavBarPart{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+#homeNavBarPart:hover{
+  opacity: 1;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
+
+
+/*  */
+.bodyCorp{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+#header{
+  background-color: var(--main-color);
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start; /* Aligner les éléments en haut */
+  flex-direction: column;
+  width: 100vw;
+  margin: 0;
+
+
+}
+.title{
+  font-weight: 800;
+  color: transparent;
+  font-size:120px;
+  background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
+  background-position: 40% 50%;
+  -webkit-background-clip: text;
+  position:relative;
+  text-align:center;
+  line-height:90px;
+  letter-spacing: -5px;
+  margin-top: 4vh;
+}
+.subtitle{
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top:10px;
+  color: var(--secondary-color) !important;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+@keyframes hackerText {
+  0% { content: "&{ment"; }
+  25% { content: "(!]$;"; }
+  50% { content: "Get#!)"; }
+  75% { content: "@by}?"; }
+  100% { content: "root({#"; }
+}
+
+.hackerText{
+  display: flex;
+  width: 20%;
+  height: 11vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1vh;
+  font-size: x-large;
+  font-style:oblique;
+  color: rgb(155, 21, 21);
+}
+
+.hackerText::after {
+  content: "█▓▒░";
+  animation: hackerText 0.7s infinite;
+  font-family: monospace;
+  white-space: nowrap;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+
+
+
