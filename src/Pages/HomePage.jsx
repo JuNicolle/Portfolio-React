@@ -2,6 +2,8 @@ import HomeText from "../Components/HomeText";
 import NavbarComponent from "../Components/Navbarcomponent";
 import GitLogo from "../assets/GitHubLogo.png";
 import LinkedinLogo from "../assets/LinkedinLogo.png";
+import MessageLogo from "../assets/message.png";
+
 
 
 
@@ -35,9 +37,23 @@ const HomePage = () => {
                     <img id="linkedinImg" src={LinkedinLogo} alt="logo linkedin" />
                   </a>
                   </div>
+
+                  <div class="avatar">
+                  <a href="">
+                    <img id="linkedinImg" src={MessageLogo} alt="logo linkedin" />
+                  </a>
+                  </div>
             </div>
             <div id="technosSection">
-                
+                    <img  src={MessageLogo} alt="" />
+                    <img  src={MessageLogo} alt="" />
+                    <img  src={MessageLogo} alt="" />
+                    <img  src={MessageLogo} alt="" />
+                    <img  src={MessageLogo} alt="" />
+                    <img  src={MessageLogo} alt="" />
+                    <img  src={MessageLogo} alt="" />
+                    <img  src={MessageLogo} alt="" />
+                    <img  src={MessageLogo} alt="" />
             </div>
         </div>
         <div className="rightPart">
