@@ -157,12 +157,12 @@ width: 100%;
   flex-basis: 60%;
   gap: 8%;
   justify-content: space-evenly;
-  background-color: var(--main-color);
+  background:linear-gradient(#001021, #9198e5);
 }
 
 .leftPart, .rightPart{
   width: 40%;
-  
+  height: 100%;
   align-items: center;
   border-radius: 25px;
   margin: 4vh;
@@ -177,7 +177,7 @@ width: 100%;
 }
 
 .rightPart{
-  background-color: rgba(60, 59, 59, 0.901);
+  /* background-color: rgba(60, 59, 59, 0.901); */
   color: whitesmoke;
 }
 
@@ -194,8 +194,8 @@ width: 100%;
   justify-content: space-around;  
   align-items: center;
   gap: 20px;
-  background-color: var(--tertiary-color);
-  height: 30%;
+  /* background-color: var(--tertiary-color); */
+  height: 45%;
   width: 80%;
   border-radius: 25px;
 
@@ -203,16 +203,18 @@ width: 100%;
 
 #technosSection{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 20px;
   height: 40%;
 }
+
+
 
 /* LOGO FLOTTANT */
   
 .avatar {
   width: 6vw;
-  height: 8vh;
+  height: 10vh;
   box-sizing: border-box;
   /* border: 2px white solid; */
   border-radius: 50%;
@@ -223,12 +225,6 @@ width: 100%;
   img { width: 100%; height: auto; }
 }
 
-#gitImg{  
-  height: 100%;
-}
-#linkedinImg{  
-  height: 100%;
-}
 
 @keyframes float {
   0% {
@@ -247,4 +243,87 @@ width: 100%;
 
 /* FIN LOGO FLOTTANT */
 
+#profilPic{
+  width: 20%;
+  float: left;
+  margin-right: 0.5vw;
+}
 
+.bioInMac{
+  float: right;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-bottom: 5%;
+  background-color: #011522;
+  border-radius: 8px;
+  z-index: 1;
+  
+ }
+ 
+ .tools {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+ }
+ 
+ .circle {
+  padding: 0 4px;
+ }
+ 
+ .box {
+  display: inline-block;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  border-radius: 50%;
+ }
+ 
+ .red {
+  background-color: #ff605c;
+ }
+ 
+ .yellow {
+  background-color: #ffbd44;
+ }
+ 
+ .green {
+  background-color: #00ca4e;
+ }
+
+ .bioInMac{
+  color: azure;
+ }
+
+ .card_content{
+  padding-left: 1vw;
+  padding-right: 0.5vw;
+ }
+
+ .card_content p{
+  line-height: 1.4;
+ }
+
+ /* @@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+ .technoCard{
+  border: whitesmoke 1px solid;
+  padding: 0.5vw;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0px rgba(0,0,0,0.6);
+ }
+
+ .technoCard img{
+  width: 5vw;
+ }
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+#sidesProjectsSection{
+  display: flex;
+  background:linear-gradient(#9198e5, #001021);
+}
