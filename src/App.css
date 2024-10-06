@@ -149,31 +149,88 @@ width: 100%;
   font-family: monospace;
   white-space: nowrap;
 }
+
+/* TITRE+EMBAUCHEZ MOI // FONCTIONNEL */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
+html{
+  width:100%;
+  height: 100%;
+}
+
+body{
+  /* background-color: white;
+  margin: 0;
+  width: 100%;
+  height: 100%; */
+  font-family: 'Raleway', sans-serif;
+}
+
+#header{
+  background:linear-gradient(9198e5, black)
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.title{
+  font-weight: 800;
+  color: transparent;
+  font-size:16vh;
+  background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
+  background-position: 40% 50%;
+  -webkit-background-clip: text;
+  position:relative;
+  text-align:center;
+  letter-spacing: -0.5vw;
+  margin-top: 4vh;
+}
+.subtitle{
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top:10px;
+  color: whitesmoke;
+}
+
+/* FIN DU TITRE + EMBAUCHEZ MOI */
+
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 #mainHomePage{
   width: 100%;
   display: flex;
-  flex-basis: 60%;
+  flex-basis: 80%;
   gap: 8%;
   justify-content: space-evenly;
   background:linear-gradient(#001021, #9198e5);
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/ReactLogo.png) !important;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  border-radius: 25px; */
 }
 
 .leftPart, .rightPart{
-  width: 40%;
+  width: 45%;
   height: 100%;
   align-items: center;
   border-radius: 25px;
   margin: 4vh;
 
 }
+
 .leftPart{
   /* background-color: rgba(60, 59, 59, 0.901); */
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 3vh;
+  
+  
 }
 
 .rightPart{
@@ -187,6 +244,7 @@ width: 100%;
   justify-content: center;
   align-items: center;
   padding: 20px; 
+  width: 90%;
 }
 
 #networksSection{
@@ -194,7 +252,7 @@ width: 100%;
   justify-content: space-around;  
   align-items: center;
   gap: 20px;
-  /* background-color: var(--tertiary-color); */
+  width: 100%;
   height: 45%;
   width: 80%;
   border-radius: 25px;
@@ -206,6 +264,8 @@ width: 100%;
   flex-direction: column;
   gap: 20px;
   height: 40%;
+  width: 90%;
+  margin-top: 3vh;
 }
 
 
@@ -213,16 +273,23 @@ width: 100%;
 /* LOGO FLOTTANT */
   
 .avatar {
-  width: 6vw;
-  height: 10vh;
+  width: 50%;
+  height: auto;
   box-sizing: border-box;
+  object-fit: cover;
+  max-width: 150px;
   /* border: 2px white solid; */
   border-radius: 50%;
+  opacity: 0.6;
   overflow: hidden;
   box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
   transform: translatey(0px);
   animation: float 6s ease-in-out infinite;
-  img { width: 100%; height: auto; }
+  img { width: 100%; height: 100%; }
+}
+
+#gitImg, #linkedInImg{   
+  border-radius: 50%;
 }
 
 
@@ -242,6 +309,7 @@ width: 100%;
 }
 
 /* FIN LOGO FLOTTANT */
+/* CARTE BIOGRAPHIE */
 
 #profilPic{
   width: 20%;
@@ -256,7 +324,6 @@ width: 100%;
 .card {
   width: 100%;
   height: 100%;
-  margin: 0;
   padding-bottom: 5%;
   background-color: #011522;
   border-radius: 8px;
@@ -327,3 +394,4 @@ width: 100%;
   display: flex;
   background:linear-gradient(#9198e5, #001021);
 }
+
