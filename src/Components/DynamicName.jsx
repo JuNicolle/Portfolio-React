@@ -31,7 +31,6 @@ const DynamicName = () => {
             <div id="header">
                 <div className="container">
                     <div className="title" ref={titleRef}>JULIEN NICOLLE</div>
-                    <div className="subtitle">Open To Work</div>
                 </div>
             </div>
         </>

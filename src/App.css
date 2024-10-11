@@ -179,21 +179,14 @@ body{
 .title{
   font-weight: 800;
   color: transparent;
-  font-size:16vh;
+  font-size:12vh;
   background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
   background-position: 40% 50%;
   -webkit-background-clip: text;
   position:relative;
   text-align:center;
   letter-spacing: -0.5vw;
-  margin-top: 4vh;
-}
-.subtitle{
-  display: block;
-  text-align: center;
-  text-transform: uppercase;
-  padding-top:10px;
-  color: whitesmoke;
+  margin-top: 3vh;
 }
 
 /* FIN DU TITRE + EMBAUCHEZ MOI */
@@ -292,6 +285,11 @@ body{
   border-radius: 50%;
 }
 
+.avatar:hover{   
+  opacity: 1;
+}
+
+
 
 @keyframes float {
   0% {
@@ -378,14 +376,30 @@ body{
  /* @@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
  .technoCard{
+  display: flex;
+  flex-direction: column;
   border: whitesmoke 1px solid;
   padding: 0.5vw;
   border-radius: 10px;
   box-shadow: 0 0 10px 0px rgba(0,0,0,0.6);
+  background-color: #011522;
+  color: rgb(207, 197, 197)
  }
 
  .technoCard img{
   width: 5vw;
+ }
+
+ #nodeLogo{
+  background-color: grey;
+  border-radius: 10px;
+  padding: 0px 3px;
+ }
+
+ .technoHeader{
+  display: flex;
+  align-items: center;
+
  }
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@*/
