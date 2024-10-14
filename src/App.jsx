@@ -1,8 +1,9 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import HomePage from './Pages/homePage'
 import SideProjectsPage from './Pages/SideProjectsPage'
 import CVPage from './Pages/cvPage'
+import HomePage from './Pages/HomePage'
 
 
 

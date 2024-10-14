@@ -1,16 +1,19 @@
+import React from 'react';
+import { Link } from 'react-router-dom'; // Importation de Link
 
-const NavbarComponent =() =>{ // Rename the function
-  return <>
-        <nav className="navBar">
-          <ul>
-            <li id="homeNavBarPart"><a  href="#home">Home</a></li>
-            <li id="sideProjectsNavBarPart"><a  href="#about">Sides Projects</a></li>
-            <li id="cvNavBarPart"><a  href="#projects">CV</a></li>
-            <li id="contactNavBarPart"><a  href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+const NavbarComponent = () => {
+  return (
+    <>
+      <nav className="navBar">
+        <ul>
+          <li id="homeNavBarPart"><Link to="/">Home</Link></li>
+          <li id="sideProjectsNavBarPart"><Link to="/SideProjects">Sides Projects</Link></li>
+          <li id="cvNavBarPart"><Link to="/CVPage">CV</Link></li>
+          <li id="contactNavBarPart"><Link to="/contact">Contact</Link></li>
+        </ul>
+      </nav>
     </>
-  
+  );
 }
 
-export default NavbarComponent; // Update the export statement
+export default NavbarComponent;

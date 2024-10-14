@@ -10,6 +10,7 @@ import DynamicName from "../Components/DynamicName";
 import CssLogo from "../assets/CssLogo.png";
 import PHPLogo from "../assets/PHPLogo.png";
 import NodeJSLogo from "../assets/Node.js_Logo.svg.png";
+import HyundaiPhoto from "../assets/IMG_3058.jpg";
 
 
 
@@ -142,9 +143,12 @@ const HomePage = () => {
     </div>
 
     <div id="sidesProjectsSection">
-      Side Projects
-
-  
+      <div className="sideProjectsPics">
+        <div><img src={HyundaiPhoto} alt="" /></div>
+        <div><img src={HyundaiPhoto} alt="" /></div>
+        <div><img src={HyundaiPhoto} alt="" /></div>
+        
+      </div>
     </div>
 
 

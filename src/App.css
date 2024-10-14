@@ -167,15 +167,11 @@ body{
 }
 
 #header{
-  background:linear-gradient(9198e5, black)
-}
-
-.container{
+  background:linear-gradient(9198e5, black);
   display: flex;
   justify-content: center;
-  flex-direction: column;
-
 }
+
 .title{
   font-weight: 800;
   color: transparent;
@@ -185,7 +181,7 @@ body{
   -webkit-background-clip: text;
   position:relative;
   text-align:center;
-  letter-spacing: -0.5vw;
+  letter-spacing: -0.2vw;
   margin-top: 3vh;
 }
 
@@ -324,8 +320,10 @@ body{
   height: 100%;
   padding-bottom: 5%;
   background-color: #011522;
+  color: rgb(207, 197, 197);
   border-radius: 8px;
   z-index: 1;
+
   
  }
  
@@ -358,10 +356,6 @@ body{
  
  .green {
   background-color: #00ca4e;
- }
-
- .bioInMac{
-  color: azure;
  }
 
  .card_content{
@@ -407,5 +401,18 @@ body{
 #sidesProjectsSection{
   display: flex;
   background:linear-gradient(#9198e5, #001021);
+}
+
+.sideProjectsPics{
+  display: flex;
+  
+  
+  width: 100%;
+  height: 100%;
+
+}
+
+.sideProjectsPics img{
+  width: 25vw; 
 }
 
