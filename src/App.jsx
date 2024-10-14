@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import SideProjectsPage from './Pages/SideProjectsPage'
-import CVPage from './Pages/cvPage'
+import CVPage from './Pages/CVPage'
 import HomePage from './Pages/HomePage'
 
 
