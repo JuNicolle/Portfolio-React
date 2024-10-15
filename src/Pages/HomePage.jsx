@@ -7,7 +7,7 @@ import hackerImg from "../assets/hacker.png";
 import ReactLogo from "../assets/ReactLogo.png";
 import JavascriptLogo from "../assets/JavascriptLogo.png";
 import DynamicName from "../Components/DynamicName";
-import CssLogo from "../assets/CssLogo.png";
+import CssLogo from "../assets/CSSLogo.png";
 import PHPLogo from "../assets/PHPLogo.png";
 import NodeJSLogo from "../assets/Node.js_Logo.svg.png";
 import HyundaiPhoto from "../assets/IMG_3058.jpg";
