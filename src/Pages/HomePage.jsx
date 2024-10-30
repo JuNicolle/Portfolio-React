@@ -109,7 +109,7 @@ const HomePage = () => {
             <div className="card_content">
               <img src={hackerImg} id="profilPic" alt="" />
               <p>
-                Salut, je m'appelle Julien Nicolle, j'ai 32 ans et aprés 11 ans dans le monde du Transport et de la Logistique j'ai entamé en Aout 2024
+                Salut, je m'appelle Julien, j'ai 32 ans et aprés 11 ans dans le monde du Transport et de la Logistique j'ai entamé en Aout 2024
                 une reconversion professionnelle dans le developpement informatique. <br /> Mon objectif ultime est le dev de logiciel type TMS ou WMS pour les
                 entreprises du secteur Transport. J'ai aidé a la mise en place de 2 TMS dans 2 boites differentes et c'est ca qui m'a motivé a passer de 
                 l'autre coté de la barriere.
@@ -134,7 +134,12 @@ const HomePage = () => {
             <div className="card_content">
               <img src={hackerImg} id="profilPic" alt="" />
               <p>
-                Hi, my name is Julien and i'll be a super developper in few months, motherfuckers. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quidem ex eligendi ad praesentium modi explicabo reprehenderit quam perferendis labore, inventore illum ratione tempora suscipit nesciunt corporis nulla qui hic in a doloribus quaerat! Sint, voluptatum reprehenderit, minima maiores eveniet ipsum voluptas delectus enim quaerat soluta repellat earum eius accusantium.
+                Vous savez quoi ? Vous ne m'embaucherez pas pour mon code ou pour mon portfolio, alors n'y passez
+                pas trop de temps.  <br /> <br /> <br />
+                Vous m'embaucherez pour mes softs skills, 11 ans a gerer du personnel, des projets, faire de la gestion 
+                d'entreprise ca peut vous servir. J'ai le contact facile, je suis a l'ecoute, je sais m'adapter et je suis
+                un bon communicant.
+                Ma remise en question est perpetuelle, je saurais m'adapter a vos besoins.
               </p>
             </div>
           </div>
@@ -143,12 +148,19 @@ const HomePage = () => {
     </div>
 
     <div id="sidesProjectsSection">
+      <div>
+        <h2>Des side projects</h2>
+      </div>
       <div className="sideProjectsPics">
-        <div><img src={HyundaiPhoto} alt="" /></div>
-        <div><img src={HyundaiPhoto} alt="" /></div>
-        <div><img src={HyundaiPhoto} alt="" /></div>
+        <div className="sideProjectPreview"><img src={HyundaiPhoto} alt="" /></div>
+        <div className="sideProjectPreview"><img src={HyundaiPhoto} alt="" /></div>
+        <div className="sideProjectPreview"><img src={HyundaiPhoto} alt="" /></div>
         
       </div>
+    </div>
+
+    <div className="footer">
+      <p>Julien Nicolle - 2024</p>
     </div>
 
 

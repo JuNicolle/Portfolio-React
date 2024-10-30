@@ -3,8 +3,8 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import SideProjectsPage from './Pages/SideProjectsPage'
 import CVPage from './Pages/CVPage'
-import HomePage from './Pages/HomePage'
-
+import HomePage from './Pages/homePage';
+import ContactPage from './Pages/ContactPage';
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
         <Route path="/" element={<HomePage/>} />
         <Route path="/SideProjects" element={<SideProjectsPage/>} />
         <Route path="/CVPage" element={<CVPage/>} />
+        <Route path="/contact" element={<ContactPage/>} />
       </Routes>
      </BrowserRouter>
     </>
@@ -24,3 +25,4 @@ function App() {
 }
 
 export default App
+ 
