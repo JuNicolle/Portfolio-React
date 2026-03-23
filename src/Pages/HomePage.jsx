@@ -44,7 +44,7 @@ const HomePage = () => {
 
           <div className="avatar">
             <a href="tel:0637237419">
-              <img id="messageImg" src={MessageLogo} alt="logo linkedin" />
+              <img id="messageImg" src={MessageLogo} alt="téléphone" />
             </a>
           </div>
         </div>
@@ -118,7 +118,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div id="biographySection">
+        <div id="softSkillsSection">
           <div className="card">
             <div className="tools">
               <div className="circle">
@@ -132,11 +132,11 @@ const HomePage = () => {
               </div>
             </div>
             <div className="card_content">
-              <img src={hackerImg} id="profilPic" alt="" />
+              <img src={hackerImg} id="profilPic" alt="avatar" />
               <p>
                 Vous savez quoi ? Vous ne m'embaucherez pas pour mon code ou pour mon portfolio, alors n'y passez
                 pas trop de temps.  <br /> <br /> <br />
-                Vous m'embaucherez pour mes softs skills, 11 ans a gerer du personnel, des projets, faire de la gestion 
+                Vous m'embaucherez pour mes softs skills, 11 ans a gerer du personnel, des projets, faire de la gestion
                 d'entreprise ca peut vous servir. J'ai le contact facile, je suis a l'ecoute, je sais m'adapter et je suis
                 un bon communicant.
                 Ma remise en question est perpetuelle, je saurais m'adapter a vos besoins.
@@ -160,7 +160,7 @@ const HomePage = () => {
     </div>
 
     <div className="footer">
-      <p>Julien Nicolle - 2024</p>
+      <p>Julien Nicolle - 2026</p>
     </div>
 
 
